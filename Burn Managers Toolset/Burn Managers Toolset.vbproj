@@ -82,6 +82,19 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmMultiple.Designer.vb">
+      <DependentUpon>frmMultiple.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMultiple.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSingle.Designer.vb">
+      <DependentUpon>frmSingle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSingle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fuelsmod.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -102,6 +115,12 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmMultiple.resx">
+      <DependentUpon>frmMultiple.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSingle.resx">
+      <DependentUpon>frmSingle.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -110,6 +129,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -122,6 +142,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="fcIco9.ico" />
+    <None Include="Resources\ClrFields.png" />
+    <None Include="Resources\cal027.png" />
+    <None Include="Resources\0000001.png" />
     <None Include="Resources\fire-big-icon.png" />
     <None Include="Resources\fire-icon %282%29.png" />
     <None Include="Resources\FC010y.png" />

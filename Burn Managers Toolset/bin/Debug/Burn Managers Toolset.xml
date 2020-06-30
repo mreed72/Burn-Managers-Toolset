@@ -15,6 +15,18 @@ BurnManagersToolset
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
+</member><member name="P:Burn_Managers_Toolset.My.Resources.Resources._0000001">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Burn_Managers_Toolset.My.Resources.Resources.cal027">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Burn_Managers_Toolset.My.Resources.Resources.ClrFields">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Burn_Managers_Toolset.My.Resources.Resources.FC010y">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

@@ -7,3 +7,15 @@ C:\GITHUB REPOS\Burn Managers Toolset\Burn Managers Toolset\Burn Managers Toolse
 C:\GITHUB REPOS\Burn Managers Toolset\Burn Managers Toolset\Burn Managers Toolset\obj\x86\Debug\Burn Managers Toolset.exe
 C:\GITHUB REPOS\Burn Managers Toolset\Burn Managers Toolset\Burn Managers Toolset\obj\x86\Debug\Burn Managers Toolset.xml
 C:\GITHUB REPOS\Burn Managers Toolset\Burn Managers Toolset\Burn Managers Toolset\obj\x86\Debug\Burn Managers Toolset.pdb
+C:\GITHUB REPOS\Burn Managers Toolset\Burn-Managers-Toolset\Burn Managers Toolset\obj\x86\Debug\Burn Managers Toolset.exe
+C:\GITHUB REPOS\Burn Managers Toolset\Burn-Managers-Toolset\Burn Managers Toolset\obj\x86\Debug\Burn Managers Toolset.xml
+C:\GITHUB REPOS\Burn Managers Toolset\Burn-Managers-Toolset\Burn Managers Toolset\obj\x86\Debug\Burn Managers Toolset.pdb
+C:\GITHUB REPOS\Burn Managers Toolset\Burn-Managers-Toolset\Burn Managers Toolset\bin\Debug\Burn Managers Toolset.exe
+C:\GITHUB REPOS\Burn Managers Toolset\Burn-Managers-Toolset\Burn Managers Toolset\bin\Debug\Burn Managers Toolset.pdb
+C:\GITHUB REPOS\Burn Managers Toolset\Burn-Managers-Toolset\Burn Managers Toolset\bin\Debug\Burn Managers Toolset.xml
+C:\GITHUB REPOS\Burn Managers Toolset\Burn-Managers-Toolset\Burn Managers Toolset\obj\x86\Debug\Burn_Managers_Toolset.Form1.resources
+C:\GITHUB REPOS\Burn Managers Toolset\Burn-Managers-Toolset\Burn Managers Toolset\obj\x86\Debug\Burn_Managers_Toolset.Resources.resources
+C:\GITHUB REPOS\Burn Managers Toolset\Burn-Managers-Toolset\Burn Managers Toolset\obj\x86\Debug\Burn Managers Toolset.vbproj.GenerateResource.Cache
+C:\GITHUB REPOS\Burn Managers Toolset\Burn-Managers-Toolset\Burn Managers Toolset\obj\x86\Debug\Burn_Managers_Toolset.frmMultiple.resources
+C:\GITHUB REPOS\Burn Managers Toolset\Burn-Managers-Toolset\Burn Managers Toolset\obj\x86\Debug\Burn_Managers_Toolset.frmSingle.resources
+C:\GITHUB REPOS\Burn Managers Toolset\Burn-Managers-Toolset\Burn Managers Toolset\bin\Debug\Burn Managers Toolset.exe.config
