@@ -230,6 +230,17 @@
           End Select
      End Function
 
+     Public Function Log(m As String)
+          Dim myfile As String = "C:\PB Toolset\Sessions\" & My.Settings.CurrentSession & "\" & My.Settings.CurrentSession & ".txt"
+
+          Dim itxt As New TextBox
+          If IO.File.Exists(myfile) Then
+               itxt.Text = IO.File.ReadAllText(myfile)
+          End If
+          Dim vt As String = vbNewLine & Date.Now & " --- " & m & " --- " & vbNewLine & itxt.Text
+          My.Computer.FileSystem.WriteAllText(myfile, vt, False)
+          itxt.Clear()
+     End Function
 
 
 
