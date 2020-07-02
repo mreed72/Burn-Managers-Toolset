@@ -19,7 +19,15 @@ BurnManagersToolset
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Burn_Managers_Toolset.My.Resources.Resources.addbtn">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Burn_Managers_Toolset.My.Resources.Resources.cal027">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Burn_Managers_Toolset.My.Resources.Resources.cal028">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -36,6 +44,10 @@ BurnManagersToolset
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:Burn_Managers_Toolset.My.Resources.Resources.fire_icon__2_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Burn_Managers_Toolset.My.Resources.Resources.p16_00504">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

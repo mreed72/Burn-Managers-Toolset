@@ -230,14 +230,27 @@
           End Select
      End Function
 
-     Public Function Log(m As String)
+     Public Function Log(msg As String, title As String)
           Dim myfile As String = "C:\PB Toolset\Sessions\" & My.Settings.CurrentSession & "\" & My.Settings.CurrentSession & ".txt"
 
           Dim itxt As New TextBox
           If IO.File.Exists(myfile) Then
                itxt.Text = IO.File.ReadAllText(myfile)
           End If
-          Dim vt As String = vbNewLine & Date.Now & " --- " & m & " --- " & vbNewLine & itxt.Text
+          Dim vt As String = vbNewLine & vbNewLine & Date.Now & vbNewLine & " ------------------------------ " & vbNewLine & title & vbNewLine & " ------------------------------ " & vbNewLine & msg & vbNewLine & " ------------------------------ " & itxt.Text
+          My.Computer.FileSystem.WriteAllText(myfile, vt, False)
+          itxt.Clear()
+     End Function
+
+     Public Function ErrorLog(c As String, m As String)
+          'errorlog("1XQB1QU", ex.message)
+          Dim myfile As String = "C:\PB Toolset\Sessions\" & My.Settings.CurrentSession & "\" & "errorlog.txt"
+          Dim itxt As New TextBox
+          If IO.File.Exists(myfile) Then
+               itxt.Text = IO.File.ReadAllText(myfile)
+          End If
+          Dim vt As String = vbNewLine & Date.Now & " --- " & c & " --- " & vbNewLine & My.Application.Info.Version.ToString & _
+              " | " & " Error Message: " & m & vbNewLine & " ------------------- " & itxt.Text
           My.Computer.FileSystem.WriteAllText(myfile, vt, False)
           itxt.Clear()
      End Function

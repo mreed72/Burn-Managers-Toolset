@@ -54,4 +54,9 @@
                Exit Sub
           End If
      End Sub
+
+     Private Sub Button2_Click(sender As System.Object, e As System.EventArgs) Handles Button2.Click
+          Diagnostics.Process.Start(sLocation & sTSID)
+
+     End Sub
 End Class
